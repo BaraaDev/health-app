@@ -1,0 +1,72 @@
+{
+  "name": "health-app",
+  "version": "2.0.0",
+  "description": "A modern healthcare management system with multi-language support",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0",
+    "next": "15.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^13.0.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0",
+    "jest": "^29.0.0",
+    "postcss": "^8",
+    "prettier": "^3.0.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "healthcare",
+    "medical",
+    "clinic",
+    "management",
+    "nextjs",
+    "typescript",
+    "mongodb",
+    "multilingual",
+    "rtl",
+    "arabic",
+    "english"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/health-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/health-app/issues"
+  },
+  "homepage": "https://github.com/yourusername/health-app#readme"
+}

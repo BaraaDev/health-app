@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار النصوص العربية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans Arabic', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            direction: rtl;
+            text-align: right;
+            padding: 20px;
+            background: linear-gradient(to bottom right, #f0f9ff, #e0f2fe);
+            min-height: 100vh;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #1e40af;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .test-text {
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            border-right: 4px solid #3b82f6;
+        }
+        
+        .success {
+            color: #059669;
+            font-weight: 600;
+        }
+        
+        .error {
+            color: #dc2626;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>اختبار عرض النصوص العربية</h1>
+        
+        <div class="test-text">
+            <h3>النصوص الأساسية:</h3>
+            <p>تسجيل الدخول - تسجيل - البريد الإلكتروني - كلمة المرور</p>
+            <p>الاسم - رقم الهاتف - الدور - مريض - طبيب - مالي</p>
+        </div>
+        
+        <div class="test-text">
+            <h3>نصوص لوحة التحكم:</h3>
+            <p>لوحة التحكم - لوحة تحكم الطبيب - لوحة تحكم المريض</p>
+            <p>الزيارات - المواعيد - العلاجات - المرضى - الأطباء</p>
+        </div>
+        
+        <div class="test-text">
+            <h3>رسائل النظام:</h3>
+            <p>تم الحفظ بنجاح - حدث خطأ - جاري التحميل</p>
+            <p>تأكيد الحذف - إلغاء - حفظ - تعديل</p>
+        </div>
+        
+        <div class="test-text">
+            <h3>حالات المواعيد:</h3>
+            <p>مجدول - قيد التنفيذ - مكتمل - ملغي</p>
+        </div>
+        
+        <div class="test-text success">
+            <h3>✅ إذا كنت ترى هذه النصوص بوضوح:</h3>
+            <p>فإن النصوص العربية تعمل بشكل صحيح في التطبيق!</p>
+        </div>
+        
+        <div class="test-text error">
+            <h3>❌ إذا كانت النصوص غير واضحة:</h3>
+            <p>قد تكون هناك مشكلة في تحميل الخطوط العربية</p>
+        </div>
+    </div>
+</body>
+</html> 
